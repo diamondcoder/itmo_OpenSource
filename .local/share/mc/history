@@ -1,0 +1,20 @@
+[cmdline]
+0=
+
+[mc.esc.timeout]
+0=1000000
+
+[Dir Hist New Right Panel]
+0=/root
+1=/etc/grub.d
+
+[Dir Hist New Left Panel]
+0=/usr/bin
+1=/usr
+2=/home
+3=/home/stud
+4=/root
+5=/
+6=/etc/grub.d
+7=/etc
+8=/etc/default

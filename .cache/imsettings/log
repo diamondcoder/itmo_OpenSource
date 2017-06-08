@@ -1,0 +1,44 @@
+[ 1496040806.190059]: IMSettings-Daemon[2742]: INFO: Starting imsettings-daemon...
+[ 1496040806.190434]: IMSettings-Daemon[2742]: INFO:   [HOME=/root/.config/imsettings]
+[ 1496040806.190576]: IMSettings-Daemon[2742]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1496040806.190625]: IMSettings-Daemon[2742]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1496040806.190670]: IMSettings-Daemon[2742]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1496040806.190717]: IMSettings-Daemon[2742]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//xcompose.conf
+	  Файл: «/etc/X11/xinit/xinput.d//xcompose.conf»
+	  Размер: 146       	Блоков: 8          Блок В/В: 4096   обычный файл
+	Устройство: 803h/2051d	Inode: 4194720     Ссылки: 1
+	Доступ: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Контекст: unconfined_u:object_r:bin_t:s0
+	Доступ: 2017-05-29 09:53:26.116175611 +0300
+	Модифицирован: 2014-05-03 01:42:32.000000000 +0400
+	Изменён: 2016-09-13 18:21:20.585306866 +0300
+	 Создан: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-otSwpjv3M3,guid=f0d08a2859a406917e5b17c1592bc566
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: X compose table
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1496040807.990949]: IMSettings-Daemon[2742]: INFO: Attempting to switch IM to X compose table [lang=ru_RU.UTF-8, update=false]
+org.gnome.settings-daemon.plugins.keyboard.active is true. imsettings is going to be disabled.
+
+[ 1496040808.084895]: IMSettings-Daemon[2742]: WARNING **: Current desktop isn't targeted by IMSettings.
+
+[ 1496040808.085476]: GLib-GIO[2742]: CRITICAL **: g_dbus_method_invocation_return_value_internal: assertion '(parameters == NULL) || g_variant_is_of_type (parameters, G_VARIANT_TYPE_TUPLE)' failed
+[ 1496040808.285257]: IMSettings-Daemon[2742]: INFO: Unloading imesttings module: gsettings
+[ 1496040808.285390]: IMSettings-Daemon[2742]: INFO: imsettings-daemon is shut down.

@@ -1,0 +1,45 @@
+[ 1477646991.336829]: IMSettings-Daemon[10070]: INFO: Starting imsettings-daemon...
+[ 1477646991.336974]: IMSettings-Daemon[10070]: INFO:   [HOME=/root/.config/imsettings]
+[ 1477646991.337004]: IMSettings-Daemon[10070]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1477646991.337028]: IMSettings-Daemon[10070]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1477646991.337050]: IMSettings-Daemon[10070]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1477646991.337073]: IMSettings-Daemon[10070]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//xcompose.conf
+	  Файл: «/etc/X11/xinit/xinput.d//xcompose.conf»
+	  Размер: 146       	Блоков: 8          Блок В/В: 4096   обычный файл
+	Устройство: 803h/2051d	Inode: 4194720     Ссылки: 1
+	Доступ: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Контекст: unconfined_u:object_r:bin_t:s0
+	Доступ: 2016-10-28 11:29:44.467759803 +0300
+	Модифицирован: 2014-05-03 01:42:32.000000000 +0400
+	Изменён: 2016-09-13 18:21:20.585306866 +0300
+	 Создан: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: no
+Is Qt supported: no
+DESKTOP: unknown
+GUESS_DESKTOP: 
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-q4O5TDPidD,guid=04008846963c52006a7bbe8058131a8f
+GTK_IM_MODULE: xim
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: X compose table
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1477646995.293174]: IMSettings-Daemon[10070]: INFO: Attempting to switch IM to X compose table [lang=ru_RU.UTF-8, update=false]
+[ 1477646996.574403]: IMSettings-Daemon[10070]: INFO:   no need to invoke any auxiliary process for X compose table
+[ 1477646996.574768]: IMSettings-GSettings backend[10070]: INFO: Setting up xim:xim as gtk+ immodule
+
+[ 1477647189.167830]: GLib-GIO[10070]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1477647189.168265]: GLib-GIO[10070]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1477647189.168471]: IMSettings-Daemon[10070]: INFO: Unloading imesttings module: gsettings
+[ 1477647189.168626]: IMSettings-Daemon[10070]: INFO: imsettings-daemon is shut down.
